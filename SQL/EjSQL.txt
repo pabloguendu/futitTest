@@ -1,0 +1,23 @@
+1-
+select Name from AD_Window
+where AD_Window_ID= 100;
+
+2-
+update AD_Window
+set Name=concat("--",Name)
+where AD_Window_ID= 100;
+
+3-
+select * from AD_Tab
+where AD_Window_ID = 100;
+
+4-
+select AD_Tab.Name, AD_Field.Name from AD_Tab
+inner join AD_Field on AD_Tab.AD_Tab_ID= AD_Field.AD_Tab_ID
+where AD_Window_ID= 100
+order by AD_Tab.Name, AD_Field.Name;
+
+5-
+select AD_Window.Name,count(*) from AD_Window
+inner join AD_Tab on AD_Window.AD_Window_ID=AD_Tab.AD_Window_ID
+group by AD_Window.Name;
