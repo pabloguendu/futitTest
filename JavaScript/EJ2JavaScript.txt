@@ -1,0 +1,6 @@
+JavaScript EJ 2:
+var s2 = "¡Hola Mundo!";
+alerta (s2. toLowerCase ());
+
+
+

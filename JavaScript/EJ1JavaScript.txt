@@ -1,0 +1,7 @@
+JavaScript EJ 1:
+
+alert(calculaBinomio(2, 3)); Devuelve 25
+alert(calculaBinomio(4, 5)); Devuelve 81
+alert(numLlamadas); Devuelve 2
+alert(typeof(cuadradoDeA));Undefined, Retorna Undifined ya que es una variable de bloque y TypeOf devuelve el tipo de dato.
+
