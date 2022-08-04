@@ -1,0 +1,1 @@
+Hibernate es una ORM (Permite dar el formato correcto a los objetos, para guardar información en la base de datos) utilizada en Java.
